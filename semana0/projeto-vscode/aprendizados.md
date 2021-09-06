@@ -1,3 +1,3 @@
 # Aprendizados da semana
 
-Nessa semana aprendi a usar o **terminal**, investigar crimes na linha de comando, pesquisar no google é fundamental, errar aconteçe com certa frequencia. 
+Nessa semana aprendi a usar o **terminal**, investigar crimes na linha de comando, pesquisar no google é fundamental, errar aconteçe com certa frequencia... 
