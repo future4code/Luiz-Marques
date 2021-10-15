@@ -1,0 +1,21 @@
+.rodape {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.indice-paginas-add-produto {
+    background-color:rgb(243, 207, 139);
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo-pagina-add-produto {
+    color:cornsilk;
+    font-size: 30px;
+    background-color:rgb(240, 157, 148);
+    text-align: center;
+    padding: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
