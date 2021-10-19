@@ -1,0 +1,195 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+/** Exercicio 07 **/
+div img {
+    background: rgba(209, 17, 17, 0);
+    width: 30px;
+    height: 30px;
+}
+
+.botao-amarelo {
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.botao-amarelo:hover {
+    background-color: #c44f00;
+}
+
+.container {
+    height: 500px;
+    text-align: center;
+    
+}
+
+.icone {
+    height: 15px;
+}
+
+/** Exercicio 10**/
+
+.font-home{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.font-comprar{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/** Exercicio 11**/
+    text-align: center;
+    
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+    /** Exercicio 03 **/
+    display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 500px;
+}
+/** Exercicio 04 **/
+.teste{
+display: inline-block;
+width: 210px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#container-de-descricao>ol {
+    padding: 15px 0px;  
+}
+
+#container-para-comprar {
+    background-color: #e7eb90;
+}
+
+#container-para-comprar>p {
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+}
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+/** Exercicio 08 **/
+td button:hover{
+    background-color:#a59343;
+}
+
+td button:active{
+    color:white;
+    background-color: rgb(12, 12, 6);
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: rgb(10, 0, 0);
+}
+
+#back-button:hover {
+    background-color: #acabaa
+}
+/** Exercicio 08 **/
+#back-button:active{
+    color:white;
+    background-color: blue;
+}
+.alinhar{
+    margin-left: auto;
+    margin-right: auto;
+    
+}   
+/** Exercicio 06**/
+.teste2{
+   width: 50px;
+   height: 50px;
+}
+/** Exercicio 09 **/
+.buscador{
+border-bottom-width: 4px;
+border-color: black;
+border-top-width: 0px;
+border-left-width: 0px;
+border-right-width: 0px;
+}
+/** Exercicio11 **/
+.botao-voltar-centralizar{
+    padding-top: 200px;
+}
