@@ -7,7 +7,7 @@ font-family: 'Roboto Slab', serif; **/
     font-size: 100%;
     border: none;
     outline: none;
-    font-weight: 300;
+    font-weight: 700;
     box-sizing: border-box;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -28,9 +28,18 @@ img{
 }
 
 .cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: orange;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
     width: 100%;
-    float: left;
     padding:3% 4%;
+    display: flex;
+    justify-content: space-between
+    
 }
 
 .logo{
@@ -136,3 +145,10 @@ img{
     background: gray no-repeat fixed;
 }
 
+h1{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+}

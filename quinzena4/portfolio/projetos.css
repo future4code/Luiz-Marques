@@ -1,7 +1,9 @@
-*{
+*{ 
     margin: 0;
-    padding:0;
-    box-sizing: border-box ;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
 }
 
 body{
@@ -32,7 +34,7 @@ header h1{
     width: 300px;
     height: 300px;
     border: 10px solid white;
-    box-shadow: 5p 5px 5px black;
+    box-shadow: 5px 5px 5px black;
     flex-grow: 1;
 }
 
@@ -79,14 +81,6 @@ header h1{
 }
 
 
-*{ 
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-    box-sizing: border-box;
-}
-
 .cabecalho{
     display: flex;
     align-items: center;
@@ -97,43 +91,6 @@ header h1{
     font-weight: 700;
 }
 
-.formulario{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-}
-
-form {
-font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-form div{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-}   
-
-form input, form textarea{
-    padding: 20px;
-    min-width: 300px;
-    border: 1px solid orange;
-    border-radius: 20px;
-}
-
-form input:focus, form textarea:focus{
-    background-color: rgb(248, 223, 177);
-
-}
-
-form input[type=submit]{
-    background-color: orange;
-    cursor: pointer;
-}
-
-form label{
-    margin-left: 15px;
-}
 
 .rodape{
     width: 100%;
@@ -157,10 +114,6 @@ form label{
     color:white;
     font-weight: 500;
 }
-
-
-
-
 
 
 a {
