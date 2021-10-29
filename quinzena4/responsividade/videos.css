@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    background: orange;
+    padding: 15px 25px;
+}
+
+.titulo-busca{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between; 
+}
+
+.botao-busca{
+    width: 70px;
+}
+
+footer{
+    background: rgb(61, 61, 61);
+    color: white;
+    padding: 15px 25px;
+}
+
+.video{
+    margin: 30px auto;
+    width: 1200px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .video{
+        margin: 30px auto;
+        width: 100vw
+      
+    }
+
+    header{
+        background: rgb(247, 85, 20);
+        padding: 15px 25px;
+    }
+
+    footer{
+        background: rgb(37, 100, 28);
+        color: white;
+        padding: 15px 25px;
+    }
+}
+
