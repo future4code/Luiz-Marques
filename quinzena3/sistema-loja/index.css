@@ -1,0 +1,54 @@
+.redes-sociais {
+    color: rgb(14, 13, 13);
+    font-size: 30px;
+    text-align: center;
+    font:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.titulo-pagina {
+      color:cornsilk;
+      font-size: 30px;
+      background-color:rgb(240, 157, 148);
+      text-align: center;
+      padding: 24px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.indice-paginas {
+    background-color:rgb(243, 207, 139);
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.redes-sociais {
+    text-align: center;
+}
+
+.texto-com-imagem {
+    text-align: center;
+}
+
+.tocaaqui {
+    text-align: center;
+}
+
+.foto-sorriso {
+    text-align: center;
+    font-weight: bold;
+}
+
+.borda {
+    border-width:medium;
+    border-style: solid;
+    border-color:black;
+    height:650px;
+    background-color: white;
+    
+}
+
+.rodape {
+    text-align: center
+}
