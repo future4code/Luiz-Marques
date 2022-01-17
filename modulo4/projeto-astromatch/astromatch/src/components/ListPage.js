@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import axios from "axios"
 import styled from "styled-components"
 import { TiArrowBack } from "react-icons/ti";
-import { AiOutlineClear } from "react-icons/ai";
+import { AiOutlineClear, AiOutlineSwapLeft } from "react-icons/ai";
 
 const MainDiv = styled.div`
     display: flex;
@@ -11,7 +11,7 @@ const MainDiv = styled.div`
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-color: #f1d302;
+    background-color: lightgray;
 `
 
 const AplicationDiv = styled.div`
@@ -20,9 +20,8 @@ const AplicationDiv = styled.div`
     flex-direction: column;
     align-items: center;
     height: 90vh;
-    width: 25vw;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    width: 40vw;
+    border-radius: 1%;
     background-color: pink;
     overflow: auto;
 `
@@ -30,8 +29,8 @@ const AplicationDiv = styled.div`
 const ClearButtonDiv = styled.div`
     display: flex;
     position: absolute;
-    right: 400px; 
-    bottom: 40px; 
+    right: 700px; 
+    bottom: 70px; 
 `
 
 const HeaderDiv = styled.div`
@@ -118,8 +117,8 @@ const ListPage = (props) => {
     }
     const clearMatches = () => {
         axios
-        .put(`${baseUrl}clear`).then( () => {
-            
+        .put(`${baseUrl}clear`).then(response => {
+            setMatches([])   
         }).catch(error => {
             console.log(error)
         })

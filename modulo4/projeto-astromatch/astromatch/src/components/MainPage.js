@@ -18,13 +18,13 @@ const MainDiv = styled.div`
 `
 
 const AplicationDiv = styled.div`
-    border: 1px solid black;
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 90vh;
-    width: 35vw;
-    border-radius: 10%;
+    width: 40vw;
+    border-radius: 1%;
     background-color: gray;
 `
 
@@ -38,8 +38,8 @@ const ChoiceButtonsDiv = styled.div`
 const ClearButtonDiv = styled.div`
     display: flex;
     position: absolute;
-    right: 400px; 
-    bottom: 40px; 
+    right: 700px; 
+    bottom: 70px; 
 `
 
 const HeaderDiv = styled.div`
@@ -63,8 +63,8 @@ const ImageDiv = styled.div`
     background: url(${(props) => props.imageUrl}) center center/cover;
     align-items: flex-end;
     justify-content: center;
-    border-radius: 10%; 
-    border: 1px solid black;
+    border-radius: 5%; 
+    border: 2px solid black;
     img{
         width: 100%;
         height: 100%;
@@ -99,7 +99,7 @@ const AplicationTitle = styled.p`
     background-color: #340068;
     width: 160px;
     height: 30px;
-    border-radius: 20%;
+    border-radius: 2%;
 `
 
 const BrokenHeartButton = styled.button`
@@ -120,7 +120,7 @@ const BrokenHeartButton = styled.button`
 `
 
 const OnFireButton = styled.button`
-    color: orange;
+    color: green;
     border-radius: 40%;
     border: none;
     background-color: transparent;
@@ -154,7 +154,7 @@ const ViewMatchesButton = styled.button`
 `
 
 const ClearMatchesButton = styled.button`
-    color: yellow;
+    color: red;
     border-radius: 30%;
     border: none;
     background-color: transparent;
