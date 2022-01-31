@@ -1,13 +1,9 @@
-import './App.css';
-import styledComponents from 'styled-components';
-import axios from 'axios';
-import HomePage from './pages/HomePage';
+import React from "react"
+import Router from "./router/Router"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <HomePage />
-    </div>
+    <Router />
   );
 }
 
